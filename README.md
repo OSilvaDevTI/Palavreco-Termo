@@ -18,7 +18,7 @@ Você precisará de um compilador C (como o Dev-C++) e um terminal. O jogo utili
 
 #### 2. Posso adicionar minhas próprias palavras ao dicionário?
 
-Sim! O jogo lê as palavras de um arquivo chamado jogo.h. Para adicionar novas palavras, simplesmente edite a linha 12 na constante, adicionando uma palavra após a vírgula, entre as aspas duplas e antes do colchetes final. Certifique-se de que todas as palavras tenham o mesmo número de letras (5 letras, por padrão).
+Sim! O jogo lê as palavras de um arquivo chamado jogo.h. Para adicionar novas palavras, simplesmente edite a linha 12 na constante, adicionando uma palavra após a vírgula, entre as aspas duplas, antes do colchetes final, após isso, adicione +1 em rand() e pronto. Certifique-se de que todas as palavras tenham o mesmo número de letras (5 letras, por padrão).
 
 
 ## Aprendizados
